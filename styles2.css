@@ -1,0 +1,120 @@
+<style>
+    /* General Reset */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    /* Page Container */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #edf2f7;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 800px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 0.4s ease-in-out;
+    }
+
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Header Section */
+    h1 {
+        text-align: center;
+        color: #4a5568;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    p strong {
+        color: #2d3748;
+    }
+
+    /* Status Styling */
+    .status {
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .status.gray {
+        background-color: #e2e8f0;
+        color: #4a5568;
+    }
+
+    .status.red {
+        background-color: #fed7d7;
+        color: #c53030;
+    }
+
+    .status.yellow {
+        background-color: #faf089;
+        color: #d69e2e;
+    }
+
+    .status.green {
+        background-color: #c6f6d5;
+        color: #276749;
+    }
+
+    /* Buttons */
+    button {
+        background: #3182ce;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        margin-right: 10px;
+    }
+
+    button:hover {
+        background: #2b6cb0;
+    }
+
+    select {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin: 10px 0;
+    }
+
+    /* Back Link */
+    a {
+        color: #3182ce;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
